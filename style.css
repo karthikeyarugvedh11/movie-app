@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #000428, #004e92);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #e50914;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.movie-details {
+  margin-top: 30px;
+  display: none;
+}
+
+.poster {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin: 10px 0 5px;
+}
